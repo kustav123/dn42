@@ -3,9 +3,11 @@ cidr:               10.0.0.0/8
 netname:            BLK-FREIFUNK
 descr:              Freifunk Intercity-VPN
 remarks:            Registry at https://github.com/freifunk/icvpn-meta
-nserver:            m.in-addr-servers.dn42
-nserver:            x.in-addr-servers.dn42
-nserver:            g.in-addr-servers.dn42
+nserver:            b.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            y.delegation-servers.dn42
+ds-rdata:           64441 10 2 8a39e9df85a73f1982e43c9139e095e8548451d2048d92c2703869ef8bfebbb4
+ds-rdata:           56676 10 2 6f81d879a0f852c9d4552be946abd1778d6e926684f0f408bce21e723c8d35f0
 status:             ALLOCATED
 policy:             closed
 org:                ORG-DN42

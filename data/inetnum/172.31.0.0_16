@@ -1,8 +1,11 @@
 inetnum:            172.31.0.0 - 172.31.255.255
 cidr:               172.31.0.0/16
 netname:            ** chaosvpn
-nserver:            ns1.chaosvpn.g.nic.dn42
-nserver:            ns2.chaosvpn.g.nic.dn42
+nserver:            b.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            y.delegation-servers.dn42
+ds-rdata:           64441 10 2 5f668f3083d65650ab5c4e9fccdddd0c8108e0fa4be39e161e6a58d1741c5b2d
+ds-rdata:           56676 10 2 22ddff4c014a3f764a86cc50d6a20d19ebcccbe2673f66c0034e3256da864019
 status:             ALLOCATED
 policy:             closed
 org:                ORG-DN42

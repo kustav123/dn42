@@ -3,11 +3,13 @@ cidr:               172.22.0.0/16
 netname:            NET-BLK216-DN42
 descr:              The original DN42 IPv4 address block.
 remarks:            Not free for direct assignments, please use sub-allocated blocks
-nserver:            m.in-addr-servers.dn42
-nserver:            x.in-addr-servers.dn42
-nserver:            g.in-addr-servers.dn42
+nserver:            b.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            y.delegation-servers.dn42
+ds-rdata:           64441 10 2 383a8c2714d3da76f58cee4c54566566b336b2dfa219b965f7cb706d71c54356
+ds-rdata:           56676 10 2 c6470f5cc76a6ea258b306b80e98dc4a8f1e16e59a5d028c821c8c93162406b9
 status:             ALLOCATED
-policy:             reserved
+policy:             closed
 org:                ORG-DN42
 mnt-by:             DN42-MNT
 source:             DN42

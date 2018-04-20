@@ -1,12 +1,9 @@
 domain:             dn42
-nserver:            lavana.sjc.xuu.dn42 172.22.141.181
-nserver:            lavana.sjc.xuu.dn42 fdea:a15a:77b9:4444::181
-nserver:            kapha.mtr.xuu.dn42  172.22.141.171
-nserver:            kapha.mtr.xuu.dn42  fdea:a15a:77b9:4444::171
-nserver:            rishi.bre.xuu.dn42  172.22.141.191
-nserver:            rishi.bre.xuu.dn42  fdea:a15a:77b9:4444::191
-nserver:            grmml.root.dn42     172.23.149.20
-nserver:            grmml.root.dn42     fd42:23:149:cccc::53
+nserver:            b.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            y.delegation-servers.dn42
+ds-rdata:           64441 10 2 6dadda00f5986bd26fe4f162669742cf7eba07d212b525acac9840ee06cb2799
+ds-rdata:           56676 10 2 4b559c949eb796f5502f05bd5bb2143672e7ef935286db552955f291bb81093e
 org:                ORG-DN42
 mnt-by:             DN42-MNT
 source:             DN42

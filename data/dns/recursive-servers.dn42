@@ -1,0 +1,11 @@
+domain:             recursive-servers.dn42
+nserver:            a.recursive-servers.dn42 fd42:d42:d42:54::1
+nserver:            a.recursive-servers.dn42 172.20.0.53
+nserver:            b.recursive-servers.dn42 fd42:4242:2601:ac53::53
+nserver:            b.recursive-servers.dn42 172.20.129.163
+nserver:            j.recursive-servers.dn42 fd42:5d71:219:0:1::43
+nserver:            j.recursive-servers.dn42 172.20.1.19
+nserver:            y.recursive-servers.dn42 fd42:c01d:beef::2
+nserver:            y.recursive-servers.dn42 172.20.20.65
+mnt-by:             DN42-MNT
+source:             DN42

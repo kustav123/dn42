@@ -1,11 +1,13 @@
 inetnum:            172.20.0.0 - 172.20.255.255
 cidr:               172.20.0.0/16
 netname:            NET-BLK016-DN42
-nserver:            m.in-addr-servers.dn42
-nserver:            x.in-addr-servers.dn42
-nserver:            g.in-addr-servers.dn42
+nserver:            b.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            y.delegation-servers.dn42
+ds-rdata:           64441 10 2 616c149633e93d963b0e8f738719630ea0a09f4aabe211b1fbb8fc9f51304027
+ds-rdata:           56676 10 2 34df88e17444e198fd8e6d90e4fdaef13eec14b0184c70b3aa1bc2027cd6f060
 status:             ALLOCATED
-policy:             reserved
+policy:             closed
 org:                ORG-DN42
 mnt-by:             DN42-MNT
 source:             DN42

@@ -3,11 +3,13 @@ cidr:               172.21.0.0/16
 netname:            NET-BLK116-DN42
 remarks:            * Last available IPv4 space
 remarks:            * Max one /24 per person only allowed due to shortages
-nserver:            m.in-addr-servers.dn42
-nserver:            x.in-addr-servers.dn42
-nserver:            g.in-addr-servers.dn42
+nserver:            b.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            y.delegation-servers.dn42
+ds-rdata:           64441 10 2 4cc085716ba83f18df1a7fb9f9479d10327e3d30e222c7a197109c7560ae0368
+ds-rdata:           56676 10 2 cdd9ee7e5275c188b08cd033debf13bd16d35f1412e7ab2c02ff0e1a110bf98e
 status:             ALLOCATED
-policy:             reserved
+policy:             closed
 org:                ORG-DN42
 mnt-by:             DN42-MNT
 source:             DN42
